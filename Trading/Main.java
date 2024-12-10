@@ -59,3 +59,12 @@ print(order_response)
 
 
 
+## get Order history data
+query = { "product_id": 27 }
+response = delta_client.order_history(query, page_size=100);
+print(response)
+
+
+
+
+
